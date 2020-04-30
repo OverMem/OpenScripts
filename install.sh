@@ -10,4 +10,6 @@ else
 fi
 
 cp -f DeleteGmon Diff Echo Lines MakeInfo Spaces $INSTALLDIR/
+mkdir -p $INSTALLDIR/../share/OpenScripts
+cp -f .Other/Logo.svg $INSTALLDIR/../share/OpenScripts/
 
